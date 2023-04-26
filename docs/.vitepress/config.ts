@@ -5,7 +5,7 @@ export default defineConfig({
   title: "星际舰队文献资料库",
   description: "StarTrekChina Documentation Site",
   head: [
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "./assets/img/logo.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/public/logo.png"}],
   ],
   
   themeConfig: {
@@ -27,7 +27,7 @@ export default defineConfig({
       }
     ],
     
-    logo: './assets/img/logo.png',
+    logo: '/public/logo.png',
 
     editLink: {
       pattern: 'https://github.com/narwhrl/stcn-docs/tree/main/docs/:path'
