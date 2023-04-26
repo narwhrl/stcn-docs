@@ -7,7 +7,7 @@ hero:
   text: "星际舰队文献资料库"
   tagline: 储存星际迷航相关的中文文档
   image:
-    src: 'assets/img/archives-logo-frame.png'
+    src: '/archives-logo-frame.png'
     alt: Starfleet Archives
   actions:
     - theme: brand
