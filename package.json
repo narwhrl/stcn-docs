@@ -11,5 +11,8 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "minisearch": "^6.0.1"
   }
 }
