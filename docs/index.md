@@ -7,12 +7,12 @@ hero:
   text: "星际舰队文献资料库"
   tagline: 储存星际迷航相关的中文文档
   image:
-    src: '.vitepress/assets/img/archives-logo.png'
+    src: 'assets/img/archives-logo-frame.png'
     alt: Starfleet Archives
   actions:
     - theme: brand
       text: 开始阅读
-      link: /markdown-examples
+      link: /docs/tng-technical-manual/uss-enterprise-introduction
     - theme: alt
       text: 在Github上贡献
       link: https://github.com/narwhrl/stcn-docs/pulls
