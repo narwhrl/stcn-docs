@@ -31,6 +31,13 @@ export default defineConfig({
         'data-website-id': "b4564f68-80c3-45a9-85a8-56e4fa9fb7b7",
       }
     ],
+    [
+      'script',
+      { 
+        src: "https://kit.fontawesome.com/9c90ee3d2e.js",
+        'crossorigin': "anonymous",
+      }
+    ],
   ],
   lastUpdated: true,
   
@@ -59,7 +66,7 @@ export default defineConfig({
           { text: '下载站', link: 'https://pan.startrekcn.cn' },
           { text: '漫画站', link: 'https://comic.startrekcn.cn' }
         ]
-      }
+      },
     ],
     
     logo: '/logo.png',
@@ -86,6 +93,7 @@ export default defineConfig({
           { text: '计算机系统', link: '/docs/tng-technical-manual/computer-systems' },
           { text: '曲速推进系统', link: '/docs/tng-technical-manual/warp-propulsion-system' },
           { text: '脉冲推进系统', link: '/docs/tng-technical-manual/impulse-propulsion-system' },
+          { text: '公用及辅助系统', link: '/docs/tng-technical-manual/utilities-and-auxiliary-systems' },
         ],
         collapsible: true,
         collapsed: false
