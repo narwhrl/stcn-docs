@@ -1,27 +1,20 @@
-# VitePress
+# Starfleet Archives | Documentation Database
 
 This directory is a brief example of a [VitePress](https://vitepress.vuejs.org/) site that can be deployed to Vercel with zero-configuration.
+
+## Clone for your own copy
+
+```bash
+$ git clone git@github.com:narwhrl/stcn-docs.git
+```
 
 ## Setup
 
 Install the dependencies
 
 ```bash
-$ yarn install
-```
-
-## Deploy Your Own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vitepress&template=vitepress)
-
-_Live Example: https://vitepress-starter-template.vercel.app_
-
-## Setup
-
-Install the dependencies:
-
-```bash
-$ yarn install
+$ npm install
+$ npm run
 ```
 
 ### Development
@@ -29,7 +22,7 @@ $ yarn install
 Start the development server
 
 ```bash
-$ yarn dev
+$ npm run dev
 ```
 
 ### Build the project
@@ -37,13 +30,5 @@ $ yarn dev
 Build for production
 
 ```bash
-$ yarn build
-```
-
-### Deploy
-
-Deploy your VitePress application to Vercel
-
-```bash
-$ vercel
+$ npm run build
 ```

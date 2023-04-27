@@ -22,10 +22,10 @@ features:
     title: 由 VitePress 驱动
     details: VitePress 是由 Vite / Vue 驱动的静态网站生成器, 简洁高效，使用 Markdown 语法。
   - icon: 🛠️
-    title: 遵循 BY-CC-ND 协议
-    details: 可以在不商用传播的协议下任意分发文档内容
+    title: 遵循 CC BY-NC-SA 协议
+    details: 若未特殊说明，可以在不商用的前提下任意分发文档内容
   - icon: ❤️
     title: 欢迎贡献
-    details: 我们随时欢迎各位提交高质量的ST相关中文文档
+    details: 我们随时欢迎任何人提交高质量的ST相关中文文档
 ---
 

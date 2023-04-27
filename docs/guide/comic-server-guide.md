@@ -10,7 +10,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
     {
-        avatar: 'https://www.github.com/narwhrl.png',
+        avatar: '/narwhrl.jpg',
         name: 'Narwhrl',
         title: '撰写',
         links: [
@@ -37,7 +37,7 @@ const members = [
 
 
 **可以通过以下方式获得服务器账号：**
-### 1.1 使用[Github](https://github.com/)账号自行注册
+### 1.1 使用 [Github](https://github.com/) 账号自行注册
 ::: tip 💡
  由于 Github 在国内无法稳定访问，推荐使用 [Watt ToolKit](https://steampp.net/) 或是 [Cloudflare Warp+](https://1.1.1.1/) 加速 Github 访问。
 :::
@@ -55,7 +55,9 @@ const members = [
 ::: warning 注意⚠️
 我个人并不能做到频繁查看邮件，因此使用该方式注册可能会有较大延迟。
 :::
-请以**邮箱+密码**的格式发送邮件至 [i@narwh.ch](mailto:i@narwh.ch) 邮箱，收到邮件后我会使用发送邮箱作为用户名手动帮忙注册账号。如果希望自行设置密码，也可以直接告诉我让我首次生成随机密码后自行登录账号更改密码。无论如何，我强烈建议在注册登录之后更改自己的密码。
+请以**邮箱+密码**的格式发送邮件至 [i@narwh.ch](mailto:i@narwh.ch) 邮箱，收到邮件后我会以该邮箱进行账号注册。如果希望自行设置密码，可以在发送邮件时不附带密码，我会帮忙生成随机密码，再自行登录账号后更改。
+
+无论如何，我强烈建议在注册登录之后更改自己的密码。
 <br>
 <br>
 
@@ -80,7 +82,7 @@ const members = [
 
 考虑到手机和平板上使用浏览器阅读漫画并不方便，因此可以通过移动客户端访问本漫画服务器。Komga 支持 [OPDS 协议](https://baike.baidu.com/item/opds/3579281)，因此理论上兼容所有支持 OPDS 协议的阅读器。
 
-具体支持列表可以查看 [**Komga 文档**](https://komga.org/guides/) 。
+具体支持列表可以查看 [**Komga 文档**](https://komga.org/guides/opds.html) 。
 
 ### 2.1 使用 Tachiyomi <Badge type="tip" text="Android" />  阅读
 
@@ -91,7 +93,8 @@ const members = [
 随后在插件的设置页面按图示填写号服务器地址、邮箱、密码即可连接至服务器。回到插件列表后点击插件即可访问漫画列表。
 
 <img src="/assets/img/comic-site-guide/tachiyomi-komga.png" >
-<br><br>
+
+<br>
 
 ### 2.2 使用 Paperback <Badge type="tip" text="iOS / iPadOS" />  阅读
 
@@ -106,3 +109,19 @@ const members = [
 ![](/assets/img/comic-site-guide/paperback-1.png)
 <br>
 ![](/assets/img/comic-site-guide/paperback-2.png)
+
+<br>
+
+### 2.3 使用其他 OPDS 阅读器 <Badge type="tip" text="universal" />  阅读
+
+具体使用方法请自行查看并学习 [Komga 文档](https://komga.org/guides/opds.html)，这里不做详细叙述。
+
+| OS      | App name                                                                                                             | Status                                                                                                   | OpenSearch support     |                  Page streaming support                   |
+|---------|----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------:|:----------------------:|:---------------------------------------------------------:|
+| Android | [FBReader: Favorite Book Reader](https://play.google.com/store/apps/details?id=org.geometerplus.zlibrary.ui.android) | :x: Can't download CBR/CBZ, only PDF. PDF only supported in Premium version. Does not remember password. | No                     |                            No                             |
+| Android | [Moon+ Reader](https://play.google.com/store/apps/details?id=com.flyersoft.moonreader)                               | :heavy_check_mark:                                                                                       | No                     |                            No                             |
+| Android | [Librera](https://play.google.com/store/apps/details?id=com.foobnix.pdf.reader)                                      | :heavy_check_mark:                                                                                       | No                     |                            No                             |
+| Android | [PocketBook](https://play.google.com/store/apps/details?id=com.obreey.reader)                                        | :x: Doesn't show CBR/CBZ                                                                                 | No                     |                            No                             |
+| iOS     | [KyBook 3](http://kybook-reader.com/)                                                                                | :heavy_check_mark:                                                                                       | **Yes**                |                            No                             |
+| iOS     | [Chunky Comic Reader](http://chunkyreader.com/)                                                                      | :heavy_check_mark:                                                                                       | No                     |                          **OPDS PSE 1.0**                          |
+| iOS     | [Panels](https://panels.app/)                                                                                        | :heavy_check_mark:                                                                                       | **Yes**<br>*(v2.8.2+)* | **OPDS PSE 1.0** (v2.8.0+)<br/>**OPDS PSE 1.1** (v2.9.7+) |

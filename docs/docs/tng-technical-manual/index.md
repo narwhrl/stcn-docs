@@ -4,6 +4,52 @@ editLink: true
 outline: [2, 3]
 layout: page
 ---
+<style>
+  #bottone5 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  }
+
+  #bottone5:hover,
+  #bottone5:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  }
+
+  #bottone5:hover {
+  transform: translateY(-1px);
+  }
+
+  #bottone5:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+  }
+</style>
 
 <script setup>
     import {  
@@ -16,7 +62,7 @@ layout: page
     {
         avatar: '/eh.jpg',
         name: 'EnterpriseH',
-        title: '翻译',
+        title: '翻校 / 排版 / 填图',
         links: [
         { 
             icon:         { 
@@ -40,7 +86,7 @@ layout: page
     },
 
     {
-        avatar: 'https://www.github.com/narwhrl.png',
+        avatar: '/narwhrl.jpg',
         name: 'Narwhrl',
         title: '页面编撰 / 排版',
         links: [
@@ -55,14 +101,18 @@ layout: page
     }
     ]
 </script>
-
+<div style="max-width: 280px; max-height: 360px; border: solid 0px; margin: 50px auto;">
+<img src="/assets/img/TNGTM/cover.webp">
+</div>
 <VPTeamPage style="padding-bottom: 50px !important;">
-  <VPTeamPageTitle>
+  <VPTeamPageTitle style="padding-top: 0px !important;">
     <template #title>
       <strong>下一代技术手册</strong><br><Badge type="warning" text="BUILDING" />
     </template>
     <template #lead>
-        深入描述了《星际迷航：下一代》中<strong><em>联邦星舰进取号D</em></strong>上使用的技术和设备，由 Rick Sternbach 和 Michael Okuda 撰写。
+        著：Rick Sternbach / Micheal Okuda<br>
+        初版翻译：先进星舰设计局 ASDB 文献室<br>
+        第二版校对与翻译修正/排版/填图：EnterpriseH
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
@@ -70,8 +120,7 @@ layout: page
   />
 </VPTeamPage>
 
-<div align=center class="action" data-v-72cc4481=""><a class="VPButton medium brand" href="/docs/tng-technical-manual/uss-enterprise-introduction.html" data-v-2dba8ca9="" data-v-72cc4481="">开始阅读</a></div>
+
+<div align=center><a href="/docs/tng-technical-manual/uss-enterprise-introduction.html"><button id="bottone5">开始阅读</button></a></div>
 <br><br><br><br>
-<div style="width: 70%; height: 70%; border: solid 0px; margin: 50px auto;">
-<img src="/assets/img/TNGTM/cover.webp">
-</div>
+
