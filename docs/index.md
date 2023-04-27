@@ -11,8 +11,8 @@ hero:
     alt: Starfleet Archives
   actions:
     - theme: brand
-      text: 开始阅读
-      link: /docs/tng-technical-manual/uss-enterprise-introduction
+      text: 阅读文档
+      link: /docs/tng-technical-manual/
     - theme: alt
       text: 在Github上贡献
       link: https://github.com/narwhrl/stcn-docs/pulls

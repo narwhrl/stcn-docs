@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { VPTeamMembers } from 'vitepress/theme'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,15 +8,25 @@ export default defineConfig({
   head: [
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/logo.png"}],
   ],
+  lastUpdated: true,
   
   themeConfig: {
 
+    lastUpdatedText: "最后修改",
     outlineTitle: '本页引索',
+    search: {
+      provider: 'local'
+    },
+    docFooter: {
+      prev: '上一篇文章',
+      next: '下一篇文章'
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '阅读文献', link: '/docs/tng-technical-manual/uss-enterprise-introduction' },
-      { text: '使用帮助', link: '/guide/index' },
+      { text: '阅读文献', link: '/docs/tng-technical-manual/' },
+      { text: '使用帮助', link: '/guide/comic-server-guide' },
       {
         text: '站点链接',
         items: [
@@ -38,24 +49,41 @@ export default defineConfig({
       copyright: ''
     },
 
-    sidebar: [
+    sidebar: {
+    
+    '/docs/': [
       {
         text: '下一代技术手册',
         items: [
           { text: '联邦星舰进取号介绍', link: '/docs/tng-technical-manual/uss-enterprise-introduction' },
-          { text: '飞船结构', link: '/docs/tng-technical-manual/spacecraft-structure' }
-        ]
+          { text: '飞船结构', link: '/docs/tng-technical-manual/spacecraft-structure' },
+          { text: '指挥系统', link: '/docs/tng-technical-manual/command-systems' },
+          { text: '计算机系统', link: '/docs/tng-technical-manual/computer-systems' },
+        ],
+        collapsible: true,
+        collapsed: false
       },
 
       {
         text: '深空九号技术手册',
         items: [
-          { text: '序', link: '/docs/ds9-technical-manual/index' },
+          { text: '序', link: '/docs/ds9-technical-manual/Introduction' },
         ]
       }
 
     ],
 
+    '/guide/': [
+      {
+        text: '漫画服务器使用指南',
+        collapsed: false,
+        items: [
+          { text: '注册与登录', link: '/guide/comic-server-guide.html#注册与登录' },
+          { text: '使用移动客户端访问', link: '/guide/comic-server-guide.html#使用移动客户端访问漫画服务器' }
+        ]
+      },
+    ],
+  },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/narwhrl/stcn-docs' },
