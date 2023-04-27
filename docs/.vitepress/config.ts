@@ -4,9 +4,33 @@ import { VPTeamMembers } from 'vitepress/theme'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "星际舰队文献资料库",
+  lang: 'zh-CN',
   description: "StarTrekChina Documentation Site",
   head: [
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/logo.png"}],
+    [
+      'script',
+      {
+        'charset': "UTF-8",
+        'id': "LA_COLLECT",
+        src: '//sdk.51.la/js-sdk-pro.min.js'
+      }
+    ],
+    [
+      'script',
+      {},
+      `
+      LA.init({id:"Jp94afXwRYJOkI0t",ck:"Jp94afXwRYJOkI0t"})
+      `
+    ],
+    [
+      'script',
+      { 
+        async: true,
+        src: "http://107.173.192.201:3000/script.js",
+        'data-website-id': "b4564f68-80c3-45a9-85a8-56e4fa9fb7b7",
+      }
+    ],
   ],
   lastUpdated: true,
   
@@ -61,6 +85,7 @@ export default defineConfig({
           { text: '指挥系统', link: '/docs/tng-technical-manual/command-systems' },
           { text: '计算机系统', link: '/docs/tng-technical-manual/computer-systems' },
           { text: '曲速推进系统', link: '/docs/tng-technical-manual/warp-propulsion-system' },
+          { text: '脉冲推进系统', link: '/docs/tng-technical-manual/impulse-propulsion-system' },
         ],
         collapsible: true,
         collapsed: false
