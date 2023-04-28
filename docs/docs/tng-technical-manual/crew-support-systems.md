@@ -48,7 +48,7 @@ outline: [2, 3]
 :::
 
 ### 硬件 Hardware
-重症监护室的一个关键要素是生物床传感器和支持单元。这张外科病床包括一个可以连接到各种远程医疗器械和医用三录仪上的基本生物功能传感器阵列（见 13.3 条目）。
+重症监护室的一个关键要素是生物床传感器和支持单元。这张外科病床包括一个可以连接到各种远程医疗器械和医用三录仪上的基本生物功能传感器阵列（见 <a href="/docs/tng-technical-manual/crew-support-systems.html#_13-3-医用三录仪-medical-tricorder" class="cus-link">条目 13.3 <i class="fa-solid fa-arrow-right-from-bracket"></i></a> ）。
 
 <img src="/assets/img/TNGTM/13.2.2.jpg">
 
