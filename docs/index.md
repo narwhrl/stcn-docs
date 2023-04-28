@@ -14,7 +14,7 @@ hero:
       text: 阅读文档
       link: /docs/tng-technical-manual/
     - theme: alt
-      text: 在Github上贡献
+      text: 在Github上提交
       link: https://github.com/narwhrl/stcn-docs/pulls
 
 features:

@@ -38,13 +38,19 @@ export default defineConfig({
         'crossorigin': "anonymous",
       }
     ],
+    [
+      'script',
+      { 
+        src: "https://cdn.jsdelivr.net/npm/misans@3.1.1/index.min.js",
+      }
+    ],
   ],
   lastUpdated: true,
   
   themeConfig: {
 
     lastUpdatedText: "最后修改",
-    outlineTitle: '本页引索',
+    outlineTitle: '本页索引',
     search: {
       provider: 'local'
     },
@@ -72,7 +78,8 @@ export default defineConfig({
     logo: '/logo.png',
 
     editLink: {
-      pattern: 'https://github.com/narwhrl/stcn-docs/edit/main/docs/:path'
+      pattern: 'https://github.com/narwhrl/stcn-docs/edit/main/docs/:path',
+      text: '在 Github 上编辑本页面'
     },
 
     footer: {
@@ -94,6 +101,7 @@ export default defineConfig({
           { text: '曲速推进系统', link: '/docs/tng-technical-manual/warp-propulsion-system' },
           { text: '脉冲推进系统', link: '/docs/tng-technical-manual/impulse-propulsion-system' },
           { text: '公用及辅助系统', link: '/docs/tng-technical-manual/utilities-and-auxiliary-systems' },
+          { text: '通信系统', link: '/docs/tng-technical-manual/communications' },
         ],
         collapsible: true,
         collapsed: false

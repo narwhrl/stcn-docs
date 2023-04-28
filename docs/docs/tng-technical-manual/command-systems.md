@@ -4,7 +4,11 @@ editLink: true
 outline: [2, 3]
 ---
 
-# 3.0 指挥系统
+# 3.0 指挥系统 <Badge type="tip" text="complete" />
+::: details 索引
+[[toc]]
+::: 
+
 ## 3.1 主舰桥 Main Bridge
 银河级星舰的主要操作和控制由主舰桥执行，位于碟部模块最顶部的 1 号甲板上。主舰桥直接监督所有主要任务行动，并协调所有部门活动。
 

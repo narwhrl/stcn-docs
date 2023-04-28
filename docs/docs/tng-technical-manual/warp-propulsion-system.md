@@ -4,7 +4,10 @@ editLink: true
 outline: [2, 3]
 ---
 
-# 5.0 曲速推进系统 Warp Propulsion System
+# 5.0 曲速推进系统 <Badge type="tip" text="complete" />
+::: details 索引
+[[toc]]
+::: 
 推进系统被认为是任何星舰的最主要部分，而曲速推进系统对于联邦星舰而言无疑是合乎逻辑的选择。<strong>曲速推进系统（<em>Warp Propulsion System</em>）</strong>这一联邦星舰进取号上最复杂和高能的组件，是这一类型设备的最新改型。这一系统使人类进入深空、促进与其他生物接触，并深刻地改变了所有在银河系里先进的科技文明。
 
 ## 5.1 曲速场理论及应用 Warp Field Theory and Application 

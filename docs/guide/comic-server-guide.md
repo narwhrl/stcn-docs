@@ -30,6 +30,7 @@ const members = [
         ]
     },
 ]
+
 </script>
 
 # 漫画服务器使用指南 <Badge type="warning" text="BETA" />
@@ -38,7 +39,7 @@ const members = [
 
 ## 注册与登录
 
-漫画站基于 [Komga <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://github.com/gotson/komga) 离线漫画服务器所搭建。基于记录账户阅读进度的功能，必须登录服务器上的账号才能进入服务器查看漫画。
+漫画站基于 <a href="https://github.com/gotson/komga" class="cus-link">Komga <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 离线漫画服务器所搭建。基于记录账户阅读进度的功能，必须登录服务器上的账号才能进入服务器查看漫画。
 虽然服务器设置了一个共享账号，但还是建议大家注册自己的账号使用，以免阅读进度与其他人产生冲突。
 
 
@@ -47,7 +48,7 @@ const members = [
 ::: tip 💡
  由于 Github 在国内无法稳定访问，推荐使用 [Watt ToolKit <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://steampp.net/) 或是 [Cloudflare Warp+ <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://1.1.1.1/) 加速 Github 访问。
 :::
-自行注册 Github 账号后可直接访问漫画站 [首页 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://comic.startrekcn.cn/)，点击登录按钮下方的[「*SIGN IN WITH GITHUB*」](https://github.com/)进行账号注册即可。
+自行注册 Github 账号后可直接访问漫画站 <a href="https://comic.startrekcn.cn/" class="cus-link">首页 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，点击登录按钮下方的[「*SIGN IN WITH GITHUB*」](https://github.com/)进行账号注册即可。
 
 ![SIGN IN WITH GITHUB](/assets/img/comic-site-guide/github-login.jpg)
 
@@ -61,7 +62,7 @@ const members = [
 ::: warning 注意⚠️
 我个人并不能做到频繁查看邮件，因此使用该方式注册可能会有较大延迟。
 :::
-请以**邮箱+密码**的格式发送邮件至 [i@narwh.ch <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](mailto:i@narwh.ch) 邮箱，收到邮件后我会以该邮箱进行账号注册。如果希望自行设置密码，可以在发送邮件时不附带密码，我会帮忙生成随机密码，再自行登录账号后更改。
+请以**邮箱+密码**的格式发送邮件至 <a href="mailto:i@narwh.ch" class="cus-link">i@narwh.ch <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 邮箱，收到邮件后我会以该邮箱进行账号注册。如果希望自行设置密码，可以在发送邮件时不附带密码，我会帮忙生成随机密码，再自行登录账号后更改。
 
 无论如何，我强烈建议在注册登录之后更改自己的密码。
 <br>
@@ -86,17 +87,17 @@ const members = [
 
 ## 使用移动客户端访问
 
-考虑到手机和平板上使用浏览器阅读漫画并不方便，因此可以通过移动客户端访问本漫画服务器。Komga 支持 [OPDS 协议 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://baike.baidu.com/item/opds/3579281)，因此理论上兼容所有支持 OPDS 协议的阅读器。
+考虑到手机和平板上使用浏览器阅读漫画并不方便，因此可以通过移动客户端访问本漫画服务器。Komga 支持 <a href="https://baike.baidu.com/item/opds/3579281" class="cus-link">OPDS 协议 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，因此理论上兼容所有支持 OPDS 协议的阅读器。
 
-具体支持列表可以查看 [**Komga 文档** <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://komga.org/guides/opds.html)。
+具体支持列表可以查看 <a href="https://komga.org/guides/opds.html" class="cus-link">Komga 文档 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>。
 
 ### 2.1 使用 Tachiyomi <Badge type="tip" text="Android" />  阅读
 
-[Tachiyomi](https://tachiyomi.org/) 客户端可以点击 [链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://tachiyomi.org/download/) 进行下载。
+Tachiyomi 客户端可以点击 <a href="https://tachiyomi.org/download/" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 进行下载。
 
 完成下载后到「*浏览*」页面中搜索「*komga*」插件并安装。
 
-随后在插件的设置页面按图示填写号服务器地址、邮箱、密码即可连接至服务器。回到插件列表后点击插件即可访问漫画列表。
+随后在插件的设置页面按图示填写好服务器地址、邮箱、密码即可连接至服务器。回到插件列表后点击插件即可访问漫画列表。
 
 <img src="/assets/img/comic-site-guide/tachiyomi-komga.png" >
 
@@ -104,7 +105,7 @@ const members = [
 
 ### 2.2 使用 Paperback <Badge type="tip" text="iOS / iPadOS" />  阅读
 
-下载 Paperback APP:  [**Paperback on AppStore** <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://apps.apple.com/us/app/paperback-a-komga-client/id1626613373)
+安装 Paperback: <a href="https://apps.apple.com/us/app/paperback-a-komga-client/id1626613373" class="cus-link">Paperback on AppStore <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>
 
 ::: danger 请注意
  国区未上架此APP，需要使用美区账号下载。
@@ -120,7 +121,7 @@ const members = [
 
 ### 2.3 使用其他 OPDS 阅读器 <Badge type="tip" text="universal" />  阅读
 
-具体使用方法请自行查看并学习 [Komga 文档 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://komga.org/guides/opds.html)，这里不做详细叙述。
+具体使用方法请自行查看并学习 <a href="https://komga.org/guides/opds.html" class="cus-link">Komga 文档 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，这里不做详细叙述。
 
 | OS      | App name                                                                                                             | Status                                                                                                   | OpenSearch support     |                  Page streaming support                   |
 |---------|----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------:|:----------------------:|:---------------------------------------------------------:|

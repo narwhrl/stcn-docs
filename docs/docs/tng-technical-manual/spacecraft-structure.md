@@ -3,7 +3,11 @@ title: 2.0	飞船结构
 editLink: true
 outline: [2, 3]
 ---
-# 2.0	飞船结构
+# 2.0	飞船结构 <Badge type="tip" text="complete" />
+::: details 索引
+[[toc]]
+::: 
+
 ## 2.1 主龙骨结构 Main Skeletal Structure
 
 银河级星舰的船体主龙骨结构由一系列互相自锁连接的三钛合金/硬铀合金长纤维束桁架构件构成。这些构件平均横截面积 1.27平方米，并沿着飞船的外部轮廓平均每 25 米分布。

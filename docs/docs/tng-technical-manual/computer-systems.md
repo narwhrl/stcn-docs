@@ -3,7 +3,11 @@ title: 4.0 计算机系统
 editLink: true
 outline: [2, 3]
 ---
-# 4.0 计算机系统 Computer System
+# 4.0 计算机系统 <Badge type="tip" text="complete" />
+::: details 索引
+[[toc]]
+::: 
+
 ## 4.1 计算机系统 Computer System
 进取号上的主计算机系统可能是除船员以外星舰上最重要的单一运作要素。计算机系统的架构直接模仿了生物自主神经系统，并以类似的方式负责船上其他所有系统的操作。
 

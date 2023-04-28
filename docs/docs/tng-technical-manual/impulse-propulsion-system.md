@@ -4,7 +4,11 @@ editLink: true
 outline: [2, 3]
 ---
 
-# 6.0 脉冲推进系统 Impulse Propulsion System
+# 6.0 脉冲推进系统 <Badge type="tip" text="complete" />
+::: details 索引
+[[toc]]
+::: 
+
 ## 6.1 脉冲引擎 Impulse Drive
 
 <br>
