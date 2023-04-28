@@ -5,50 +5,44 @@ outline: [2, 3]
 layout: page
 ---
 <style>
-  #bottone5 {
-  align-items: center;
-  background-color: #FFFFFF;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.85);
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
-  }
-
-  #bottone5:hover,
-  #bottone5:focus {
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: rgba(0, 0, 0, 0.65);
-  }
-
-  #bottone5:hover {
-  transform: translateY(-1px);
-  }
-
-  #bottone5:active {
-  background-color: #F0F0F1;
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
-  transform: translateY(0);
-  }
+    #click-button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    }
+  
+    #click-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #16825d;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+    }
+  
+    #click-button:hover {
+    color: #e8e8e8;
+    }
+  
+    #click-button:hover::before {
+    width: 100%;
+    }
 </style>
 
 <script setup>
@@ -121,6 +115,6 @@ layout: page
 </VPTeamPage>
 
 
-<div align=center><a href="/docs/tng-technical-manual/uss-enterprise-introduction.html"><button id="bottone5">开始阅读</button></a></div>
+<div align=center><a href="/docs/tng-technical-manual/uss-enterprise-introduction.html"><button id="click-button"> 开始阅读 </button></a></div>
 <br><br><br><br>
 

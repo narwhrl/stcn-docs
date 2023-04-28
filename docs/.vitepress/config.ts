@@ -105,6 +105,8 @@ export default defineConfig({
           { text: '传送系统', link: '/docs/tng-technical-manual/transporter-system' },
           { text: '科学与遥感系统', link: '/docs/tng-technical-manual/science-and-remote-sensing-systems' },
           { text: '战术系统', link: '/docs/tng-technical-manual/tactical-systems' },
+          { text: '环境控制系统', link: '/docs/tng-technical-manual/environmental-systems' },
+          { text: '船员支持系统', link: '/docs/tng-technical-manual/crew-support-systems' },
         ],
         collapsible: true,
         collapsed: false
