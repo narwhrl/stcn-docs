@@ -103,7 +103,8 @@ export default defineConfig({
           { text: '公用及辅助系统', link: '/docs/tng-technical-manual/utilities-and-auxiliary-systems' },
           { text: '通信系统', link: '/docs/tng-technical-manual/communications' },
           { text: '传送系统', link: '/docs/tng-technical-manual/transporter-system' },
-          { text: '科学与遥感系统 ', link: '/docs/tng-technical-manual/science-and-remote-sensing-systems' },
+          { text: '科学与遥感系统', link: '/docs/tng-technical-manual/science-and-remote-sensing-systems' },
+          { text: '战术系统', link: '/docs/tng-technical-manual/tactical-systems' },
         ],
         collapsible: true,
         collapsed: false
