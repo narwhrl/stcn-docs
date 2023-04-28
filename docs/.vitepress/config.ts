@@ -107,6 +107,10 @@ export default defineConfig({
           { text: '战术系统', link: '/docs/tng-technical-manual/tactical-systems' },
           { text: '环境控制系统', link: '/docs/tng-technical-manual/environmental-systems' },
           { text: '船员支持系统', link: '/docs/tng-technical-manual/crew-support-systems' },
+          { text: '辅助飞行器系统', link: '/docs/tng-technical-manual/auxiliary-spacecraft-system' },
+          { text: '联邦星舰进取号飞行运作规程', link: '/docs/tng-technical-manual/uss-enterprise-flight-operations' },
+          { text: '紧急操作规程', link: '/docs/tng-technical-manual/emergency-operations' },
+          { text: '结语', link: '/docs/tng-technical-manual/conclusion' },
         ],
         collapsible: true,
         collapsed: false
