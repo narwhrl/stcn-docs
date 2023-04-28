@@ -39,16 +39,18 @@ const members = [
 
 ## 注册与登录
 
-漫画站基于 <a href="https://github.com/gotson/komga" class="cus-link">Komga <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 离线漫画服务器所搭建。基于记录账户阅读进度的功能，必须登录服务器上的账号才能进入服务器查看漫画。
+漫画服务器基于 <a href="https://github.com/gotson/komga" target="_blank" class="cus-link">Komga <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 离线漫画服务器所搭建。基于记录账户阅读进度的功能，必须登录服务器上的账号才能进入服务器查看漫画。
 虽然服务器设置了一个共享账号，但还是建议大家注册自己的账号使用，以免阅读进度与其他人产生冲突。
 
 
 **可以通过以下方式获得服务器账号：**
-### 1.1 使用 [Github](https://github.com/) 账号自行注册
+### 1.1 使用 Github 账号自行注册 <Badge type="tip" text="推荐" />
 ::: tip 💡
  由于 Github 在国内无法稳定访问，推荐使用 [Watt ToolKit <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://steampp.net/) 或是 [Cloudflare Warp+ <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://1.1.1.1/) 加速 Github 访问。
 :::
-自行注册 Github 账号后可直接访问漫画站 <a href="https://comic.startrekcn.cn/" class="cus-link">首页 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，点击登录按钮下方的[「*SIGN IN WITH GITHUB*」](https://github.com/)进行账号注册即可。
+使用 Github 账户可直接访问漫画服务器 <a href="https://comic.startrekcn.cn/" target="_blank" class="cus-link">首页 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，点击登录按钮下方的[「*SIGN IN WITH GITHUB*」](https://github.com/)进行账号注册即可。
+
+如果没有 Github 账户，请前往 <a href="https://github.com/signup" target="_blank" class="cus-link">Github <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 进行注册。
 
 ![SIGN IN WITH GITHUB](/assets/img/comic-site-guide/github-login.jpg)
 
@@ -59,21 +61,18 @@ const members = [
 <br>
 
 ### 1.2 联系管理员进行注册
-::: warning 注意⚠️
-我个人并不能做到频繁查看邮件，因此使用该方式注册可能会有较大延迟。
+::: warning 须知
+由于需要人工处理，可能需要一定时间才能完成注册。
 :::
-请以**邮箱+密码**的格式发送邮件至 <a href="mailto:i@narwh.ch" class="cus-link">i@narwh.ch <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 邮箱，收到邮件后我会以该邮箱进行账号注册。如果希望自行设置密码，可以在发送邮件时不附带密码，我会帮忙生成随机密码，再自行登录账号后更改。
+请以**邮箱+密码**的格式发送邮件至 <a href="mailto:i@narwh.ch" target="_blank" class="cus-link">i@narwh.ch <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 邮箱，收到邮件后我会以该邮箱进行账号注册。如果希望自行设置密码，可以在发送邮件时不附带密码，我会帮忙生成随机密码，再自行登录账号后更改。
 
 无论如何，我强烈建议在注册登录之后更改自己的密码。
 <br>
 <br>
 
-### 1.3 使用共享账号登录
-::: warning 注意⚠️
+### 1.3 使用共享账号登录 <Badge type="danger" text="不建议" />
+::: warning 须知
 由于共享账号人人皆可登录查看，因此漫画阅读记录将会受到别人的干扰。
-:::
-::: danger 警告🚫
-如果有人恶意更改共享账号的密码，将会做封禁IPV4地址处理
 :::
 
 直接使用以下账号密码登录服务器:
@@ -87,13 +86,13 @@ const members = [
 
 ## 使用移动客户端访问
 
-考虑到手机和平板上使用浏览器阅读漫画并不方便，因此可以通过移动客户端访问本漫画服务器。Komga 支持 <a href="https://baike.baidu.com/item/opds/3579281" class="cus-link">OPDS 协议 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，因此理论上兼容所有支持 OPDS 协议的阅读器。
+考虑到手机和平板上使用浏览器阅读漫画并不方便，因此可以通过移动客户端访问本漫画服务器。Komga 支持 <a href="https://en.wikipedia.org/wiki/Open_Publication_Distribution_System" target="_blank" class="cus-link">OPDS 协议 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，因此理论上兼容所有支持 OPDS 协议的阅读器。
 
-具体支持列表可以查看 <a href="https://komga.org/guides/opds.html" class="cus-link">Komga 文档 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>。
+具体支持列表可以查看 <a href="https://komga.org/guides/opds.html" target="_blank" class="cus-link">Komga 文档 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>。
 
 ### 2.1 使用 Tachiyomi <Badge type="tip" text="Android" />  阅读
 
-Tachiyomi 客户端可以点击 <a href="https://tachiyomi.org/download/" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 进行下载。
+Tachiyomi 客户端可以点击 <a href="https://tachiyomi.org/download/" target="_blank" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 进行下载。
 
 完成下载后到「*浏览*」页面中搜索「*komga*」插件并安装。
 
@@ -105,7 +104,7 @@ Tachiyomi 客户端可以点击 <a href="https://tachiyomi.org/download/" class=
 
 ### 2.2 使用 Paperback <Badge type="tip" text="iOS / iPadOS" />  阅读
 
-安装 Paperback: <a href="https://apps.apple.com/us/app/paperback-a-komga-client/id1626613373" class="cus-link">Paperback on AppStore <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>
+安装 Paperback: <a href="https://apps.apple.com/us/app/paperback-a-komga-client/id1626613373" target="_blank" class="cus-link">Paperback on AppStore <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>
 
 ::: danger 请注意
  国区未上架此APP，需要使用美区账号下载。
@@ -121,7 +120,7 @@ Tachiyomi 客户端可以点击 <a href="https://tachiyomi.org/download/" class=
 
 ### 2.3 使用其他 OPDS 阅读器 <Badge type="tip" text="universal" />  阅读
 
-具体使用方法请自行查看并学习 <a href="https://komga.org/guides/opds.html" class="cus-link">Komga 文档 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，这里不做详细叙述。
+具体使用方法请自行查看并学习 <a href="https://komga.org/guides/opds.html" target="_blank" class="cus-link">Komga 文档 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，这里不做详细叙述。
 
 | OS      | App name                                                                                                             | Status                                                                                                   | OpenSearch support     |                  Page streaming support                   |
 |---------|----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------:|:----------------------:|:---------------------------------------------------------:|

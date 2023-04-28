@@ -4,7 +4,7 @@ editLink: true
 outline: [2, 3]
 ---
 
-# 8.0 通信系统 <Badge type="tip" text="building" />
+# 8.0 通信系统 <Badge type="tip" text="complete" />
 ::: details 索引
 [[toc]]
 ::: 

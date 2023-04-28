@@ -23,3 +23,7 @@ a.cus-link:hover{
     transition-delay: 0s;
     transition-property: all;
 }
+
+sub, sup {
+    font-size: 12px !important;
+}

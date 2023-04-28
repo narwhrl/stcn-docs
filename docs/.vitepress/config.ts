@@ -102,6 +102,8 @@ export default defineConfig({
           { text: '脉冲推进系统', link: '/docs/tng-technical-manual/impulse-propulsion-system' },
           { text: '公用及辅助系统', link: '/docs/tng-technical-manual/utilities-and-auxiliary-systems' },
           { text: '通信系统', link: '/docs/tng-technical-manual/communications' },
+          { text: '传送系统', link: '/docs/tng-technical-manual/transporter-system' },
+          { text: '科学与遥感系统 ', link: '/docs/tng-technical-manual/science-and-remote-sensing-systems' },
         ],
         collapsible: true,
         collapsed: false
