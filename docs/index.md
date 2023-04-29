@@ -14,6 +14,9 @@ hero:
       text: 阅读文档
       link: /docs/tng-technical-manual/
     - theme: alt
+      text: 使用指南
+      link: /guide/comic-server-guide
+    - theme: alt
       text: 在Github上提交
       link: https://github.com/narwhrl/stcn-docs/pulls
 

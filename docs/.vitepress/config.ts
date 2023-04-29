@@ -63,7 +63,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '阅读文献', link: '/docs/tng-technical-manual/' },
-      { text: '使用帮助', link: '/guide/comic-server-guide' },
+      { text: '使用指南', link: '/guide/comic-server-guide' },
       {
         text: '站点链接',
         items: [
