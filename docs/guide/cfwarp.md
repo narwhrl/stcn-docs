@@ -42,7 +42,7 @@ const members = [
 
 由于 Cloudflare 仅有非常昂贵的商业版才会提供国内节点，因此连接储存服务器的节点均在海外，每当晚上的国际带宽进出口晚高峰时期，国内直连使用视频站就可能会出现明显的卡顿/掉包现象。
 
-因此，使用代理软件加速视频资源的访问就显得很有必要了。下面介绍的 <a href="https://1.1.1.1" target="_blank">Cloudflare Warp+ <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 不仅能够免费使用，而且能完美解决这个问题。
+因此，使用代理软件加速视频资源的访问就显得很有必要了。下面介绍的 <a href="https://1.1.1.1" target="_blank" class="cus-link">Cloudflare Warp+ <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 不仅能够免费使用，而且能完美解决这个问题。
 
 ::: tip ✨
 虽然说确实能免费使用 [Cloudflare WARP <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i>](https://1.1.1.1)，但正常情况下要使用其实是需要付费的，只是利用了 Cloudflare 提供的「**邀请新用户注册获得 WARP+ 流量**」的优惠得到的免费流量（实际使用质量和付费版一致），至于有财力付费使用的，我还是推荐付费支持 Cloudflare ~
@@ -51,7 +51,7 @@ const members = [
 ## 2.0 在 iOS / iPadOS 上安装使用 <Badge type="tip" text="iOS / iPadOS" />
 
 ### 2.1 在 AppStore 下载安装 WARP
-前往 <a href="https://1.1.1.1" target="_blank" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，点击按钮安装 <a href="https://itunes.apple.com/us/app/1-1-1-1-faster-internet/id1423538627" target="_blank" class="cus-link">AppStore 上的 1.1.1.1: Faster Internet  <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>
+前往 <a href="https://1.1.1.1" target="_blank" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，点击按钮安装 <a href="https://itunes.apple.com/us/app/1-1-1-1-faster-internet/id1423538627" target="_blank" class="cus-link"><i class="fa-brands fa-app-store-ios"></i> AppStore 上的 1.1.1.1: Faster Internet  <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>
 
 ::: danger 请注意
  AppStore 国区未上架此APP，需要使用美区账号下载。
@@ -104,7 +104,7 @@ const members = [
 
 ### 3.1 在 PlayStore 下载安装 WARP
 
-前往 <a href="https://1.1.1.1" target="_blank" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，跳转到 PlayStore 安装 <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone" target="_blank" class="cus-link">1.1.1.1 + WARP: Safer Internet  <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>
+前往 <a href="https://1.1.1.1" target="_blank" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，跳转到 PlayStore 安装 <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone" target="_blank" class="cus-link"><i class="fa-brands fa-google-play"></i> 1.1.1.1 + WARP: Safer Internet  <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>
 
 ::: danger 请注意
  Google PlayStore 国内无法直连，如果没有科学上网工具的可以使用 <a href="https://oss.narwhrl.site/WARP_6.26.apk" target="_blank">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 下载该APP。
