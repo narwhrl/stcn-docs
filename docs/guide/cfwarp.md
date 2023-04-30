@@ -95,7 +95,7 @@ const members = [
 <img src="/assets/img/cfwarp/5.png">
 
 ::: tip 
-也许你会觉得这样子刷出来的流量并不够用。在后面 <a href="/guide/cfwarp.html#_5-1-获取使用流量多达-22pb-的许可密钥" class="cus-link">条目 5.1 <i class="fa-solid fa-arrow-right-from-bracket" style="font-size:12px;"></i></a> 我将会讲到如何获取并使用密钥。
+也许你会觉得这样子刷出来的流量并不够用。在后面 <a href="/guide/cfwarp.html#_5-1-获取使用流量多达-22pb-的许可密钥">条目 5.1 <i class="fa-solid fa-arrow-right-from-bracket" style="font-size:12px;"></i></a> 我将会讲到如何获取并使用密钥。
 :::
 
 <br>
@@ -164,7 +164,7 @@ const members = [
 
 ### 4.1 下载安装 Warp+
 
-前往 <a href="https://1.1.1.1" target="_blank" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，直接点击按钮 <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone" target="_blank" class="cus-link"><i class="fa-brands fa-windows"></i> Windows  <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 下载`msi`文件并安装。
+前往 <a href="https://1.1.1.1" target="_blank" class="cus-link">链接 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a>，直接点击按钮 <a href="https://1111-releases.cloudflareclient.com/windows/Cloudflare_WARP_Release-x64.msi" target="_blank" class="cus-link"><i class="fa-brands fa-windows"></i> Windows  <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px;"></i></a> 下载 `msi` 文件并安装。
 
 ### 4.2 更换密钥
 
