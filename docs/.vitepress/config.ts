@@ -131,7 +131,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '注册与登录', link: '/guide/comic-server-guide.html#注册与登录' },
-          { text: '使用移动客户端访问', link: '/guide/comic-server-guide.html#使用移动客户端访问漫画服务器' }
+          { text: '使用移动客户端访问', link: '/guide/comic-server-guide.html#%E4%BD%BF%E7%94%A8%E7%A7%BB%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%AE%BF%E9%97%AE' }
         ]
       },
     ],
